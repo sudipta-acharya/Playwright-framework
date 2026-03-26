@@ -1,11 +1,10 @@
 export class LoginPage{
 
-    constructor(page)
-    {
-        this.page=page;
-        this.userEmail='#userEmail';
-        this.userPassword='#userPassword';
-        this.loginBtn='#login';
+    constructor(page) {
+        this.page = page;
+        this.userEmail = '#userEmail';
+        this.userPassword = '#userPassword';
+        this.loginBtn = '#login';
 
     }
 
