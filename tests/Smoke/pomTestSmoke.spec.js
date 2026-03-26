@@ -27,3 +27,13 @@ test('POM test', async ({ page }) =>
     await cart.verifyproductInCart('ZARA COAT 3');
 
 });
+
+test('POM test1234', async ({ page }) =>
+{
+
+    //Login
+
+    const login=new LoginPage(page);
+    await login.gotoLoginPage();
+
+});
