@@ -1,0 +1,7 @@
+Login successful
+Product is added to cart - Test Passed
+Product verified at checkout page - Test Passed
+Order Placed Successfully - Test Passed
+Order ID is :69c51131f86ba51a652b85a8
+Order is present in Order History - Test Passed
+Order ID verified in Order Summary Page - Test Passed
