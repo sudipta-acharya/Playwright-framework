@@ -10,7 +10,7 @@ test('POM test', async ({ page }) =>
 
     const login=new LoginPage(page);
     await login.gotoLoginPage();
-    await login.login('pupu@yopmail.com','Play@12334');
+    await login.login('pupu@yopmail.com','Play@12395309543');
 
     await page.waitForTimeout(3000);
 
