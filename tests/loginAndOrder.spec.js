@@ -48,8 +48,8 @@ test('login to application & place order ',async({page})=>{
     {
         window.localStorage.setItem("token",value) ; //taking the argument and doing set up here
     }, response.token
-);
-const productName="ZARA COAT 3";
+    );
+    const productName="ZARA COAT 3";
     
     await page.goto("https://rahulshettyacademy.com/client/");
 
