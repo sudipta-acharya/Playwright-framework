@@ -1,11 +1,7 @@
-exports.CartPage=
-
-class cartPage
-{
-    constructor(page)
-    {
-        this.page=page;
-        this.productNameInCart="//h3[normalize-space()='ZARA COAT 3']";
+export class CartPage {
+    constructor(page) {
+        this.page = page;
+        this.productNameInCart = "//h3[normalize-space()='ZARA COAT 3']";
 
     }
 
