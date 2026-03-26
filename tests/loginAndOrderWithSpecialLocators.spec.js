@@ -20,8 +20,7 @@ test('login to application',async({page})=>{
     }
     const productName="ADIDAS ORIGINAL";
 
-    await page.locator(".card-body").filter({hasText:productName}).
-    getByRole("button",{name:"Add To Cart"}).click();
+    await page.locator(".card-body").filter({hasText:productName}).getByRole("button",{name:"Add To Cart"}).click();
 
     //Go to Cart
     await page.getByRole("listitem").getByRole("button",{name:"Cart"}).click();
