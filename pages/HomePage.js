@@ -1,12 +1,9 @@
-exports.HomePage=
+export class HomePage {
 
-class HomePage{
-
-    constructor(page)
-    {
-        this.page=page;
-        this.products=".card-body";
-        this.topLink="listitem";
+    constructor(page) {
+        this.page = page;
+        this.products = ".card-body";
+        this.topLink = "listitem";
         
     }
 

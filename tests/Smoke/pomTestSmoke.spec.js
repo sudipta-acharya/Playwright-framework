@@ -1,9 +1,9 @@
-import{test,expect} from '@playwright/test';
-import {LoginPage} from '../pages/LoginPage'; //.. means current project folder and then pages folder and then LoginPage file
-import { HomePage} from '../pages/HomePage';    
-import{CartPage} from '../pages/CartPage';
+import { test, expect } from '@playwright/test';
+import { LoginPage } from '../../pages/LoginPage.js';
+import { HomePage } from '../../pages/HomePage.js';
+import { CartPage } from '../../pages/CartPage.js';
 
-test('POM test',async({page})=>
+test('POM test', async ({ page }) =>
 {
 
     //Login
