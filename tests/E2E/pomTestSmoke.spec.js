@@ -17,7 +17,7 @@ test('POM test', async ({ page }) =>
     //Home page
 
     const home=new HomePage(page);
-    await home.addToCart('ZARA COAT 3');
+    await home.addToCart('ZARA COAT 34535');
     await home.goToCart();
     await page.waitForTimeout(3000);
 
