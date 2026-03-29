@@ -35,7 +35,7 @@ test('verify login page', async({page})=>{
    // await page.pause()
 });
 
-test.only('verify child window', async({browser})=>{
+test('verify child window', async({browser})=>{
 
     const username="//input[@id='username']"
 

@@ -3,7 +3,7 @@ import { LoginPage } from '../../pages/LoginPage.js';
 import { HomePage } from '../../pages/HomePage.js';
 import { CartPage } from '../../pages/CartPage.js';
 
-test('POM test', async ({ page }) =>
+test('POM test 1', async ({ page }) =>
 {
 
     //Login
